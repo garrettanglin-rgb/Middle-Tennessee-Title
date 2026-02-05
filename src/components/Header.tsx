@@ -35,7 +35,6 @@ const Header = () => {
             </div>
             <div className="logo-text">
               <span className="logo-name">Middle Tennessee Title</span>
-              <span className="logo-tagline">Real Estate Closings</span>
             </div>
           </a>
 
