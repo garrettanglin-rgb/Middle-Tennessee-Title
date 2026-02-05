@@ -85,7 +85,7 @@ const Process = () => {
           <span className="section-subtitle">How It Works</span>
           <h2 className="section-title">Our Streamlined Process</h2>
           <p className="section-description">
-            From contract to closing, we guide you through every step with transparency and professionalism.
+            A clear path through every stage of your transaction, handled with care and professionalism.
           </p>
         </div>
 

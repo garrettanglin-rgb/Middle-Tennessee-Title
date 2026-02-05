@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="hero-content">
           <span className="hero-badge">Serving Middle Tennessee</span>
           <h1 className="hero-title">
-            From Contract to Keys,
+            From Contract to Closing,
             <span className="hero-title-accent"> We Handle the Details</span>
           </h1>
           <p className="hero-description">
