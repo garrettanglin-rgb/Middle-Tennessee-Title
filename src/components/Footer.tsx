@@ -43,7 +43,6 @@ const Footer = () => {
               <li><a href="#services">Escrow Services</a></li>
               <li><a href="#services">Title Search</a></li>
               <li><a href="#services">Real Estate Closings</a></li>
-              <li><a href="#services">Closing Coordination</a></li>
             </ul>
           </div>
 

@@ -11,8 +11,8 @@
 }
 
 .service-card {
-  flex: 0 1 calc(33.333% - 1.34rem);
-  max-width: calc(33.333% - 1.34rem);
+  flex: 0 1 calc(50% - 1rem);
+  max-width: calc(50% - 1rem);
   background: var(--color-white);
   border-radius: var(--radius-lg);
   padding: 2rem;
