@@ -10,15 +10,14 @@ const Hero = () => {
 
       <div className="container">
         <div className="hero-content">
-          <span className="hero-badge">Trusted Since Establishment</span>
+          <span className="hero-badge">Serving Middle Tennessee</span>
           <h1 className="hero-title">
-            Your Trusted Partner in
-            <span className="hero-title-accent"> Real Estate Closings</span>
+            From Contract to Keys,
+            <span className="hero-title-accent"> We Handle the Details</span>
           </h1>
           <p className="hero-description">
-            Middle Tennessee Title, Inc. provides comprehensive title insurance, escrow services,
-            and real estate closing solutions throughout Middle Tennessee. Experience seamless
-            transactions backed by decades of expertise.
+            Clear titles. Smooth closings. Peace of mind. Middle Tennessee Title guides you through
+            every step of your real estate transaction with expertise, efficiency, and personal attention.
           </p>
           <div className="hero-cta">
             <a href="#contact" className="btn btn-primary">

@@ -65,12 +65,12 @@
 .process-step-icon {
   width: 60px;
   height: 60px;
-  background: rgba(201, 162, 39, 0.15);
+  background: rgba(124, 154, 142, 0.2);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-accent);
+  color: var(--color-accent-light);
 }
 
 .process-step-number {

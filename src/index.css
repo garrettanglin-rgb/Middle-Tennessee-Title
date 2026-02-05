@@ -1,23 +1,23 @@
 /* CSS Variables - Middle Tennessee Title Color Scheme */
 :root {
-  /* Primary Colors */
-  --color-primary: #1e3a5f;
-  --color-primary-dark: #152a45;
-  --color-primary-light: #2d5a87;
+  /* Primary Colors - Warm Charcoal/Slate-Green */
+  --color-primary: #3d4f4f;
+  --color-primary-dark: #2d3b3b;
+  --color-primary-light: #526363;
 
-  /* Accent Colors */
-  --color-accent: #8b7355;
-  --color-accent-dark: #6d5a43;
-  --color-accent-light: #a6896a;
+  /* Accent Colors - Sage Green */
+  --color-accent: #7c9a8e;
+  --color-accent-dark: #5d7a6e;
+  --color-accent-light: #9bb5a8;
 
   /* Neutral Colors */
   --color-white: #ffffff;
-  --color-off-white: #f8f9fa;
-  --color-light-gray: #e9ecef;
+  --color-off-white: #f7f9f8;
+  --color-light-gray: #e8edeb;
   --color-gray: #6c757d;
   --color-dark-gray: #343a40;
-  --color-text: #2c3e50;
-  --color-text-light: #5a6c7d;
+  --color-text: #2d3b3b;
+  --color-text-light: #5a6b6b;
 
   /* Typography */
   --font-heading: 'Playfair Display', Georgia, serif;
