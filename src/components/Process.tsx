@@ -3,8 +3,8 @@ import './Process.css';
 const steps = [
   {
     number: '01',
-    title: 'Order Placed',
-    description: 'Submit your title order through our convenient online portal, by email, or phone. We\'ll confirm receipt and provide an estimated timeline.',
+    title: 'Send Us Your Contract',
+    description: 'Bring us your purchase contract or reach out with your title needs. We\'ll review the details and get started right away.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -85,7 +85,7 @@ const Process = () => {
           <span className="section-subtitle">How It Works</span>
           <h2 className="section-title">Our Streamlined Process</h2>
           <p className="section-description">
-            From order to closing, we guide you through every step with transparency and professionalism.
+            From contract to closing, we guide you through every step with transparency and professionalism.
           </p>
         </div>
 
