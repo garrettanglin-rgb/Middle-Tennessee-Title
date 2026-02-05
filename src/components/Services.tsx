@@ -68,17 +68,6 @@ const services = [
     description: 'We handle all the details of coordinating your closing, working with lenders, real estate agents, and attorneys to ensure everything is ready for closing day.',
     features: ['Lender Coordination', 'Document Preparation', 'Scheduling Management']
   },
-  {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="10"></circle>
-        <path d="M12 6v6l4 2"></path>
-      </svg>
-    ),
-    title: 'Mobile Closings',
-    description: 'Can\'t make it to our office? No problem. We offer mobile closing services, bringing the closing to a location convenient for you.',
-    features: ['Flexible Scheduling', 'Any Location', 'Same Professional Service']
-  }
 ];
 
 const Services = () => {
