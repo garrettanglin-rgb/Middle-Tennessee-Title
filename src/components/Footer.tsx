@@ -9,12 +9,15 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
-              <div className="footer-logo-icon">
-                <span>M</span>
+              <div className="footer-logo-mark">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L4 16V36H16V26H24V36H36V16L20 4Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                  <path d="M20 10L10 18V32H16V24H24V32H30V18L20 10Z" fill="currentColor" opacity="0.2"/>
+                </svg>
               </div>
               <div className="footer-logo-text">
                 <span className="footer-logo-name">Middle Tennessee Title</span>
-                <span className="footer-logo-tagline">Inc.</span>
+                <span className="footer-logo-tagline">Real Estate Closings</span>
               </div>
             </a>
             <p className="footer-description">

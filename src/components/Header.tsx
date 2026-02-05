@@ -27,12 +27,15 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <a href="#home" className="logo" onClick={closeMobileMenu}>
-            <div className="logo-icon">
-              <span className="logo-letter">M</span>
+            <div className="logo-mark">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4L4 16V36H16V26H24V36H36V16L20 4Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                <path d="M20 10L10 18V32H16V24H24V32H30V18L20 10Z" fill="currentColor" opacity="0.2"/>
+              </svg>
             </div>
             <div className="logo-text">
               <span className="logo-name">Middle Tennessee Title</span>
-              <span className="logo-tagline">Inc.</span>
+              <span className="logo-tagline">Real Estate Closings</span>
             </div>
           </a>
 

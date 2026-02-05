@@ -43,33 +43,23 @@
   text-decoration: none;
 }
 
-.logo-icon {
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
-  border-radius: var(--radius-md);
+.logo-mark {
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  color: var(--color-white);
+  transition: color var(--transition-normal);
 }
 
-.logo-icon::after {
-  content: '';
-  position: absolute;
-  bottom: 8px;
-  left: 10px;
-  right: 10px;
-  height: 2px;
-  background: var(--color-accent);
-  border-radius: 1px;
+.logo-mark svg {
+  width: 100%;
+  height: 100%;
 }
 
-.logo-letter {
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--color-accent);
+.header--scrolled .logo-mark {
+  color: var(--color-primary);
 }
 
 .logo-text {
@@ -233,12 +223,12 @@
     font-size: 1rem;
   }
 
-  .logo-icon {
-    width: 40px;
-    height: 40px;
+  .logo-mark {
+    width: 36px;
+    height: 36px;
   }
 
-  .logo-letter {
-    font-size: 1.5rem;
+  .logo-tagline {
+    display: none;
   }
 }
