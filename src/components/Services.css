@@ -29,7 +29,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  background: linear-gradient(90deg, var(--color-primary), var(--color-logo-accent));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--transition-normal);
@@ -92,7 +92,7 @@
 }
 
 .service-features li svg {
-  color: var(--color-accent);
+  color: var(--color-logo-accent);
   flex-shrink: 0;
 }
 

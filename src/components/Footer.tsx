@@ -10,9 +10,15 @@ const Footer = () => {
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
               <div className="footer-logo-mark">
-                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 4L4 16V36H16V26H24V36H36V16L20 4Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
-                  <path d="M20 10L10 18V32H16V24H24V32H30V18L20 10Z" fill="currentColor" opacity="0.2"/>
+                <svg viewBox="0 0 55 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* House outline with chimney */}
+                  <path d="M27 10L10 24V46H20V36H34V46H44V24L27 10Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                  {/* Chimney */}
+                  <rect x="36" y="14" width="5" height="10" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                  {/* Hammer head - angled at roof */}
+                  <rect x="1" y="16" width="14" height="6" rx="1" className="footer-logo-hammer" transform="rotate(-25 8 19)"/>
+                  {/* Hammer handle */}
+                  <rect x="9" y="21" width="4" height="14" rx="1" className="footer-logo-hammer" transform="rotate(-25 11 28)"/>
                 </svg>
               </div>
               <div className="footer-logo-text">

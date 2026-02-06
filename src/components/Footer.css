@@ -40,6 +40,10 @@
   height: 100%;
 }
 
+.footer-logo-hammer {
+  fill: var(--color-logo-accent);
+}
+
 .footer-logo-text {
   display: flex;
   flex-direction: column;
@@ -109,7 +113,7 @@
 }
 
 .footer-contact li svg {
-  color: var(--color-accent);
+  color: var(--color-logo-accent);
   flex-shrink: 0;
 }
 

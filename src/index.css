@@ -153,7 +153,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--color-accent);
+  color: var(--color-logo-accent);
   margin-bottom: var(--spacing-sm);
 }
 

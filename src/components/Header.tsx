@@ -28,13 +28,15 @@ const Header = () => {
         <nav className="nav">
           <a href="#home" className="logo" onClick={closeMobileMenu}>
             <div className="logo-mark">
-              <svg viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* House outline */}
-                <path d="M25 8L8 22V42H18V32H32V42H42V22L25 8Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
-                {/* Hammer head extending from roof */}
-                <rect x="2" y="12" width="12" height="5" rx="1" className="logo-hammer" />
+              <svg viewBox="0 0 55 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* House outline with chimney */}
+                <path d="M27 10L10 24V46H20V36H34V46H44V24L27 10Z" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                {/* Chimney */}
+                <rect x="36" y="14" width="5" height="10" stroke="currentColor" strokeWidth="2.5" fill="none"/>
+                {/* Hammer head - angled at roof */}
+                <rect x="1" y="16" width="14" height="6" rx="1" className="logo-hammer" transform="rotate(-25 8 19)"/>
                 {/* Hammer handle */}
-                <rect x="6" y="17" width="3" height="10" rx="0.5" className="logo-hammer" />
+                <rect x="9" y="21" width="4" height="14" rx="1" className="logo-hammer" transform="rotate(-25 11 28)"/>
               </svg>
             </div>
             <div className="logo-text">
