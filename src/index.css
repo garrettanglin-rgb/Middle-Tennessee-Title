@@ -1,14 +1,17 @@
 /* CSS Variables - Middle Tennessee Title Color Scheme */
 :root {
-  /* Primary Colors - Warm Charcoal/Slate-Green */
-  --color-primary: #3d4f4f;
-  --color-primary-dark: #2d3b3b;
-  --color-primary-light: #526363;
+  /* Primary Colors - Slate Blue (from logo) blended with earthy tones */
+  --color-primary: #3d5a6f;
+  --color-primary-dark: #2d4555;
+  --color-primary-light: #4d6a7f;
 
   /* Accent Colors - Sage Green */
   --color-accent: #7c9a8e;
   --color-accent-dark: #5d7a6e;
   --color-accent-light: #9bb5a8;
+
+  /* Logo Accent - Subtle rust/copper (used sparingly) */
+  --color-logo-accent: #b86b4a;
 
   /* Neutral Colors */
   --color-white: #ffffff;

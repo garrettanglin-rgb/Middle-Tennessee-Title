@@ -62,6 +62,14 @@
   color: var(--color-primary);
 }
 
+.logo-hammer {
+  fill: var(--color-logo-accent);
+}
+
+.header--scrolled .logo-hammer {
+  fill: var(--color-logo-accent);
+}
+
 .logo-text {
   display: flex;
   flex-direction: column;
