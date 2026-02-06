@@ -29,7 +29,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  background: linear-gradient(90deg, var(--color-brand-blue), var(--color-brand-orange));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--transition-normal);

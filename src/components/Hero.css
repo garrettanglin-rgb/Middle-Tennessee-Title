@@ -29,8 +29,8 @@
   bottom: 0;
   background: linear-gradient(
     135deg,
-    rgba(61, 79, 79, 0.75) 0%,
-    rgba(45, 59, 59, 0.82) 100%
+    rgba(61, 79, 79, 0.72) 0%,
+    rgba(55, 80, 115, 0.78) 100%
   );
 }
 
@@ -57,15 +57,15 @@
 
 .hero-badge {
   display: inline-block;
-  background: rgba(124, 154, 142, 0.2);
-  color: var(--color-accent-light);
+  background: rgba(74, 111, 165, 0.2);
+  color: var(--color-brand-blue-light);
   font-size: 0.875rem;
   font-weight: 600;
   padding: 0.5rem 1.25rem;
   border-radius: 50px;
   margin-bottom: 1.5rem;
   letter-spacing: 1px;
-  border: 1px solid rgba(124, 154, 142, 0.4);
+  border: 1px solid rgba(74, 111, 165, 0.4);
 }
 
 .hero-title {
@@ -78,7 +78,7 @@
 
 .hero-title-accent {
   display: block;
-  color: var(--color-accent);
+  color: var(--color-brand-orange-light);
 }
 
 .hero-description {
@@ -130,7 +130,7 @@
   font-family: var(--font-heading);
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--color-accent);
+  color: var(--color-brand-orange-light);
   line-height: 1.2;
 }
 
@@ -172,7 +172,7 @@
   transform: translateX(-50%);
   width: 6px;
   height: 10px;
-  background: var(--color-accent);
+  background: var(--color-brand-orange);
   border-radius: 3px;
   animation: scrollBounce 2s infinite;
 }

@@ -46,12 +46,12 @@
 .about-feature-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, rgba(201, 162, 39, 0.15), rgba(201, 162, 39, 0.05));
+  background: linear-gradient(135deg, rgba(74, 111, 165, 0.15), rgba(74, 111, 165, 0.05));
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-accent);
+  color: var(--color-brand-blue);
   flex-shrink: 0;
 }
 
@@ -81,7 +81,7 @@
 
 .about-image-placeholder {
   aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-brand-blue-dark) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,7 +95,7 @@
 }
 
 .about-icon-large svg {
-  stroke: var(--color-accent);
+  stroke: var(--color-brand-orange-light);
 }
 
 .about-image-placeholder span {

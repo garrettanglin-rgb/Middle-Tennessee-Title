@@ -123,7 +123,7 @@
 
 /* CTA Button */
 .nav-cta {
-  background: var(--color-accent);
+  background: var(--color-brand-orange);
   color: var(--color-white) !important;
   padding: 0.625rem 1.5rem;
   border-radius: var(--radius-md);
@@ -135,7 +135,7 @@
 }
 
 .nav-cta:hover {
-  background: var(--color-accent-dark);
+  background: var(--color-brand-orange-dark);
   color: var(--color-white) !important;
   transform: translateY(-2px);
 }

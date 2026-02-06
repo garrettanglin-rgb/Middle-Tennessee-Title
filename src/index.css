@@ -10,6 +10,14 @@
   --color-accent-dark: #5d7a6e;
   --color-accent-light: #9bb5a8;
 
+  /* Brand Colors - From Logo */
+  --color-brand-blue: #4a6fa5;
+  --color-brand-blue-dark: #3b5a87;
+  --color-brand-blue-light: #6488b8;
+  --color-brand-orange: #d4782f;
+  --color-brand-orange-dark: #b8642a;
+  --color-brand-orange-light: #e08a42;
+
   /* Neutral Colors */
   --color-white: #ffffff;
   --color-off-white: #f7f9f8;
@@ -150,7 +158,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--color-accent);
+  color: var(--color-brand-blue);
   margin-bottom: var(--spacing-sm);
 }
 
@@ -182,14 +190,14 @@ section {
 }
 
 .btn-primary {
-  background-color: var(--color-accent);
+  background-color: var(--color-brand-orange);
   color: var(--color-white);
-  border-color: var(--color-accent);
+  border-color: var(--color-brand-orange);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-accent-dark);
-  border-color: var(--color-accent-dark);
+  background-color: var(--color-brand-orange-dark);
+  border-color: var(--color-brand-orange-dark);
   color: var(--color-white);
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
